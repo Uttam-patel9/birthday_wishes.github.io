@@ -1,0 +1,345 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Happy Birthday Akshay</title>
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Josefin+Sans:400,700" rel="stylesheet">
+<style type="text/css">
+html,* { margin:0; padding:0;}
+body { width:100%; height:100%; background: rgb(34, 34, 34);}
+.fireworks-div { margin:0 auto; width:100%; height:100%; text-align: center;}
+.blinker-div { overflow: hidden;}
+span.box {
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 9;
+    display: inline-block !important;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.balloon { 
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  position: relative;
+  z-index: 99;
+}
+.balloon > div {
+  width:90px;
+  height:120px; 
+  background: rgba(182, 15, 97, 0.9);;
+  border-radius:0;
+  border-radius:80% 80% 80% 80%;
+  margin: 0 auto;
+  padding:10px;
+  display: inline-block;
+}
+.balloon > div:nth-child(1){
+  background: rgba(182, 15, 97, 0.9);; 
+  box-shadow:inset 10px 10px 10px darken(rgba(182, 15, 97, 0.9);, 10%);
+  -webkit-animation:balloon1 6s ease-in-out infinite;
+  -moz-animation:balloon1 6s ease-in-out infinite;
+  -o-animation:balloon1 6s ease-in-out infinite;
+  animation:balloon1 6s ease-in-out infinite;
+  &:before { 
+   color: rgba(182, 15, 97, 0.9); ;
+  }
+}
+.balloon > div:nth-child(2){
+  background: rgba(242, 112, 45, 0.9);; 
+  box-shadow:inset 10px 10px 10px darken(rgba(242, 112, 45, 0.9);, 10%);
+   -webkit-animation:balloon2 6s ease-in-out infinite;
+  -moz-animation:balloon2 6s ease-in-out infinite;
+  -o-animation:balloon2 6s ease-in-out infinite;
+  animation:balloon2 6s ease-in-out infinite;
+  &:before { 
+   color: rgba(242, 112, 45, 0.9); ;
+  }
+}
+.balloon > div:nth-child(3){
+  background: rgba(45, 181, 167, 0.9);; 
+  box-shadow:inset 10px 10px 10px darken(rgba(45, 181, 167, 0.9);, 10%);
+   -webkit-animation:balloon4 6s ease-in-out infinite;
+  -moz-animation:balloon4 6s ease-in-out infinite;
+  -o-animation:balloon4 6s ease-in-out infinite;
+  animation:balloon4 6s ease-in-out infinite;
+  &:before { 
+   color: rgba(45, 181, 167, 0.9); ;
+  }
+}
+.balloon > div:nth-child(4){
+  background: rgba(190, 61, 244, 0.9);; 
+  box-shadow:inset 10px 10px 10px darken(rgba(190, 61, 244, 0.9);, 10%); 
+   -webkit-animation:balloon1 5s ease-in-out infinite;
+  -moz-animation:balloon1 5s ease-in-out infinite;
+  -o-animation:balloon1 5s ease-in-out infinite;
+  animation:balloon1 5s ease-in-out infinite;
+  &:before { 
+   color: rgba(190, 61, 244, 0.9); ;
+  }
+}
+.balloon > div:nth-child(5){
+  background: rgba(180, 224, 67, 0.9);; 
+  box-shadow:inset 10px 10px 10px darken(rgba(180, 224, 67, 0.9);, 10%);
+   -webkit-animation:balloon3 5s ease-in-out infinite;
+  -moz-animation:balloon3 5s ease-in-out infinite;
+  -o-animation:balloon3 5s ease-in-out infinite;
+  animation:balloon3 5s ease-in-out infinite;
+  &:before { 
+   color: rgba(180, 224, 67, 0.9); ;
+  }
+}
+.balloon > div:nth-child(6){
+  background: rgba(242, 194, 58, 0.9);;
+  box-shadow:inset 10px 10px 10px darken(rgba(242, 194, 58, 0.9);, 10%);
+  -webkit-animation:balloon2 3s ease-in-out infinite;
+  -moz-animation:balloon2 3s ease-in-out infinite;
+  -o-animation:balloon2 3s ease-in-out infinite;
+  animation:balloon2 3s ease-in-out infinite;
+  &:before { 
+   color: rgba(242, 194, 58, 0.9); ; 
+  }
+}
+.balloon > div:before {
+  color:rgb(120, 117, 118);
+  position:absolute;
+  bottom:-11px;
+  left: 52px;  
+  content:"▲";
+  font-size:1em;
+}
+.balloon span {
+  font-size: 4.8em;
+  color: white;
+} 
+/*BALLOON 1 4*/
+@-webkit-keyframes balloon1 {
+  0%,100%{ -webkit-transform:translateY(0) rotate(-6deg);}
+  50%{ -webkit-transform:translateY(-20px) rotate(8deg); }
+}
+@-moz-keyframes balloon1 {
+  0%,100%{ -moz-transform:translateY(0) rotate(-6deg);}
+  50%{ -moz-transform:translateY(-20px) rotate(8deg); }
+}
+@-o-keyframes balloon1 {
+  0%,100%{ -o-transform:translateY(0) rotate(-6deg);}
+  50%{ -o-transform:translateY(-20px) rotate(8deg); }
+}
+@keyframes balloon1 {
+  0%,100%{ transform:translateY(0) rotate(-6deg);}
+  50%{ transform:translateY(-20px) rotate(8deg); }
+}
+/* BAllOON 2 5*/
+@-webkit-keyframes balloon2 {
+  0%,100%{ -webkit-transform:translateY(0) rotate(6eg);}
+  50%{ -webkit-transform:translateY(-30px) rotate(-8deg); }
+}
+@-moz-keyframes balloon2 {
+  0%,100%{ -moz-transform:translateY(0) rotate(6deg);}
+  50%{ -moz-transform:translateY(-30px) rotate(-8deg); }
+}
+@-o-keyframes balloon2 {
+  0%,100%{ -o-transform:translateY(0) rotate(6deg);}
+  50%{ -o-transform:translateY(-30px) rotate(-8deg); }
+}
+@keyframes balloon2 {
+  0%,100%{ transform:translateY(0) rotate(6deg);}
+  50%{ transform:translateY(-30px) rotate(-8deg); }
+}
+/* BAllOON 0*/
+@-webkit-keyframes balloon3 {
+  0%,100%{ -webkit-transform:translate(0, -10px) rotate(6eg);}
+  50%{ -webkit-transform:translate(-20px, 30px) rotate(-8deg); }
+}
+@-moz-keyframes balloon3 {
+ 0%,100%{ -moz-transform:translate(0, -10px) rotate(6eg);}
+  50%{ -moz-transform:translate(-20px, 30px) rotate(-8deg); }
+}
+@-o-keyframes balloon3 {
+ 0%,100%{ -o-transform:translate(0, -10px) rotate(6eg);}
+  50%{ -o-transform:translate(-20px, 30px) rotate(-8deg); }
+}
+@keyframes balloon3 {
+ 0%,100%{ transform:translate(0, -10px) rotate(6eg);}
+  50%{ transform:translate(-20px, 30px) rotate(-8deg); }
+}
+/* BAllOON 3*/
+@-webkit-keyframes balloon4 {
+  0%,100%{ -webkit-transform:translate(10px, -10px) rotate(-8eg);}
+  50%{ -webkit-transform:translate(-15px, 20px) rotate(10deg); }
+} 
+@-moz-keyframes balloon4 {
+  0%,100%{ -moz-transform:translate(10px, -10px) rotate(-8eg);}
+  50%{ -moz-transform:translate(-15px, 10px) rotate(10deg); }
+}
+@-o-keyframes balloon4 {
+  0%,100%{ -o-transform:translate(10px, -10px) rotate(-8eg);}
+  50%{ -o-transform:translate(-15px, 10px) rotate(10deg); }
+}
+@keyframes balloon4 {
+  0%,100%{ transform:translate(10px, -10px) rotate(-8eg);}
+  50%{ transform:translate(-15px, 10px) rotate(10deg); }
+}
+#page2,#page3 {
+	display: none;
+}
+#page3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+#next-page,#next-page1,.reload {
+	cursor: pointer;
+}
+.heapshot {
+    position: relative;
+    margin: 100px;
+}
+.heapshot li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    list-style-type: none;
+}
+.heapshot li img {
+    max-width: none;
+    border: 8px solid #FFF;
+    -webkit-box-shadow: 0px 1px 5px 0px #4A4A4A;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4A4A4A;
+}
+#page2 > .blinker-div {
+    text-align: right;
+    padding-right: 05px;
+}
+.credits {
+  margin: 10%;
+  padding: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background: rgba(255,255,255,0.7);
+  border-radius: 10px;
+  text-shadow: 1px 1px #fff;
+  color: #000;
+}
+.credits p.line1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.credits p.line2 {
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+.credits p.line3 {
+  font-size: 20px;
+}
+</style>
+</head>
+<script src="js/jquery-min.js" type="text/javascript"></script>
+<script src="js/jquery-ui-min.js" type="text/javascript"></script>
+<script src="js/fireworks.js" type="text/javascript"></script>
+<script src="js/chain_fade.js" type="text/javascript"></script>
+<script src="js/blinker.js" type="text/javascript"></script>
+<script src="js/imagesloaded.min.js" type="text/javascript"></script>
+<script src="js/rotate.min.js" type="text/javascript"></script>
+<script src="js/heapshot.js" type="text/javascript"></script>
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<body>
+<div class="fireworks-div">
+  <div id="page1">
+  	<div class="blinker-div" style="margin-top:50px;">
+  		<span class="box">H</span>
+  	    <span class="box">A</span>
+  	    <span class="box">P</span>
+  	    <span class="box">P</span>
+  	    <span class="box">Y</span>
+  	</div>
+  	<div class="blinker-div">
+  		<span class="box">B</span>
+  	    <span class="box">I</span>
+  	    <span class="box">R</span>
+  	    <span class="box">T</span>
+  	    <span class="box">H</span>
+  	    <span class="box">D</span>
+  	    <span class="box">A</span>
+  	    <span class="box">Y</span>
+  	</div>
+  	<div class="blinker-div">
+  		<span class="box">A</span>
+  	    <span class="box">K</span>
+  	    <span class="box">S</span>
+  	    <span class="box">H</span>
+        <span class="box">A</span>  
+        <span class="box">Y</span>
+  	    <span class="box">A</span>
+  	</div>
+  	<div class="blinker-div">
+  		<span class="box">☺</span>
+  	    <span class="box">☺</span>
+  	    <span class="box">☺</span>
+  	    <span id="next-page" class="box" style="font-size:40px;">Click here</span>
+  	</div>
+
+  	<div class="balloon">
+  		<div><span>☺</span></div>
+  		<div><span>☺</span></div>
+  		<div><span>☺</span></div>
+  		<div><span>☺</span></div>
+  		<div><span>☺</span></div>
+  		<div><span>☺</span></div>
+    </div>
+  </div>
+
+  <div id="page2"> 
+  	<ul class="heapshot">
+  		<li><img src="download.jpeg" alt="" /></li>
+  		<li><img src="download1.jpeg" alt="" /></li>
+  		<li><img src="download2.jpeg" alt="" /></li>
+  		<li><img src="download3.jpeg" alt="" /></li>
+  		<li><img src="download4.jpeg" alt="" /></li>
+  		<li><img src="download5.jpeg" alt="" /></li>
+      <li><img src="download6.jpeg" alt="" /></li>
+  	</ul>
+  </div>
+</div>
+
+<script>
+$('.fireworks-div').fireworks({ sound: true, opacity: 0.9, width: '100%', height: '100%' });
+
+$('.box').chainFade({
+  interval: 300, 
+  distance: 5000
+});
+
+$('.blinker-div').blinker({
+    interval: 500,
+    endcolor: '#fff',
+});
+
+$('.heapshot').heapshot({ 
+    'rotation' : 80
+});
+
+$(document).on('click', '#next-page', function(){
+	$('#page1').fadeOut();
+  $("#page2").fadeIn();
+});
+
+$(document).on('click', '#next-page1', function(){
+  $('.fireworks-div').fadeOut();
+  $("#page3").fadeIn();
+});
+
+$(document).on('click', '.reload', function(){
+  location.reload();
+});
+
+</script>
+
+</body>
+</html>
